@@ -1,0 +1,218 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family: Arial, "Microsoft YaHei";
+	font-size:12px;
+	color:#204056;
+	background: url(../images/img01.jpg) repeat-x left top;
+	background-color: lightgoldenrodyellow;
+}
+
+a{
+	text-decoration:none;
+	color:#204056;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+ul{
+	list-style-type: none;
+}
+
+#wrapper{
+	width:960px;
+	margin:0px auto;
+}
+
+#header{
+	width:100%;
+	height:168px;
+	height:168px;
+}
+
+#header .logo{
+	font-size: 29px;
+	padding-top:20px;
+	float:left;
+}
+
+#header .logo a{
+	color: #204056;
+}
+
+#header .logo a:hover{
+	text-decoration: none;
+}
+
+#header .search-bar{
+	float:right;
+	margin-top: 30px;
+}
+
+#header .search-bar .search{
+	width:250px;
+	height:25px;
+}
+
+#header .search-bar .start-search{
+	width:50px;
+	height:30px;
+}
+
+#nav ul{
+	clear:both;
+}
+
+#nav ul li{
+	display:inline-block;
+	margin-top:68px;
+	padding:0px 3%;
+	width:auto;
+	background:url(../images/img02.jpg) no-repeat right center
+}
+
+#nav ul li:last-child{
+	background-image: none;
+}
+
+#nav ul li a{
+	font-size: 20px;
+	color: white;
+}
+
+#main{
+	width:100%;
+	margin-top:20px;
+}
+
+#left{
+	width:25%;
+	float:left;
+}
+
+.title{
+	width:100%;
+	background-color: #34B3A0;
+}
+
+.title .button{
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	text-align: right;
+	
+	background-color: #4B2822;
+	border-radius: 5px;
+}
+
+.title h2{
+	display: inline-block;
+	width: 90%;
+	line-height: 48px;
+	text-indent: 20px;
+}
+
+.content{
+	padding: 0 20px 20px;
+	line-height: 20px;
+	color:#9C9EA1;
+	border: 1px solid #D6E6CC;
+	background-color: white;
+	margin-bottom:20px;
+}
+
+#left .content{
+	background-color: aquamarine;
+}
+
+#left .intro{
+	background: none;
+	border:none;
+}
+
+.content li{
+	line-height:30px;
+	border-bottom:1px dashed #D1D1D1;
+}
+
+#right{
+	width:72%;
+	height:100%;
+	/*border-bottom-style:groove;*/
+	float:right;
+	
+}
+
+.rslides {
+	position: relative;
+    list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin-top: 10%;
+	border: 5px groove #4B2822;
+}
+
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
+
+#preamble{
+	margin-top: 10%;
+	font-size: 2em;
+	color: #4B2822;
+}
+
+#author{
+	margin-top: 2%;
+	font-size: 2em;
+	color: #4B2822;
+	text-align: right;
+}
+
+#footer{
+	width:100%;
+	height:64px;
+	background-color: black;
+	clear:both;
+	background: url("../images/img03.jpg") no-repeat left top;
+	margin-bottom:10px;
+}
+
+#footer p{
+	line-height:64px;
+	text-align:center;
+}
+
+#footer p a{
+	font-weight: bold;
+	color:silver;
+}
+
+#footer p a:hover{
+	text-decoration: none;
+}
